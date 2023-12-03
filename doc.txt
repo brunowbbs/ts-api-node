@@ -1,0 +1,13 @@
+1. INSTALAR TYPESCRIPT GLOBALMENTE: npm install -g typescript
+
+2. CRIAR PROJETO.
+
+3. INSTALAR LIBS: npm install ts-node typescript -D
+
+4. CRIAR ARQUIVO TSCONFIG.JSON: npx tsc --init
+
+5. CRIAR ARQUIVO PRINCIPAL src>index.ts
+
+6. CRIAR SCRIPT DE DEV: "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts"
+
+7. CRIAR GITIGNORE.
