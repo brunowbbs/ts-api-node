@@ -5,4 +5,4 @@ app.get("/ping", (request, response) => {
   return response.json({ message: "pong" });
 });
 
-app.listen(3333, () => console.log("Server iniciado"));
+app.listen(8000, () => console.log("Server iniciado"));
